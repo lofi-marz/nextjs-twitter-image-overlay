@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.react-p5 {
+    @apply w-full h-full !important
+}
+
+.react-p5 canvas {
+    @apply h-full w-full !important
+}
 
 @layer utilities {
     .text-gradient {
